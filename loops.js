@@ -4,3 +4,20 @@ function forLoop(array){
   }
   return array;
 }
+function whileLoop(n){
+  while(n--){
+    console.log(n);
+  }
+  return 'done'
+}
+
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
+function doWhileLoop(array){
+  do{
+    
+  }
+  while(array.length || maybeTrue())
+}
